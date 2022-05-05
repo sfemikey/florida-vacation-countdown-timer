@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url('../img/florida.jpg');
+	background-size: cover;
+	background-position: center center;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	font-family: "Righteous", sans-serif;
+	margin: 0;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 4em;
+	text-transform: uppercase;
+	margin: 0;
+	margin-top: -1.25em;
+}
+
+h2 {
+	font-size: 2em;
+	margin: 1em 0 3em;
+}
+
+.countdown-con {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.number {
+	font-size: 4.5em;
+	margin: 0 .75em;
+	line-height: 1;
+	color: red;
+	font-weight: bold;
+}
+
+.countdown-el {
+	text-align: center;
+	margin: 0;
+}
+
+.countdown-el span {
+	font-size: 1.25em;
+	padding-top:.5em;
+}
