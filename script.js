@@ -3,13 +3,13 @@ const hoursElement = document.getElementById("hours");
 const minsElement = document.getElementById("mins");
 const secElement = document.getElementById("seconds");
 
-const floridaTrip = "August 19 2022";
+const PhilippineTrip = "August 19 2026";
 
 function countdown() {
-  const floridaTripDate = new Date(floridaTrip);
+  const PhilippineTripDate = new Date(PhilippineTrip);
   const currentDate = new Date();
 
-  const totalSeconds = (floridaTripDate - currentDate) / 1000;
+  const totalSeconds = (PhilippineTripDate - currentDate) / 1000;
 
   const days = Math.floor(totalSeconds / 3600 / 24);
   const hours = Math.floor(totalSeconds / 3600) % 24;
